@@ -4,3 +4,5 @@
 
 /BlogWebAPI/.vs
 /BlogWebAPI/BlogWebAPI/obj
+/BlogWebAPI/Blog.Repositories/obj
+/BlogWebAPI/Blog.Services/obj
