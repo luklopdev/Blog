@@ -8,8 +8,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./servers.component.scss']
 })
 export class ServersComponent implements OnInit {
+  allowNewServers = false;
 
-  constructor() { }
+  constructor() {
+    setTimeout(() => {
+      this.allowNewServers = true;
+    },2000)
+   }
 
   ngOnInit(): void {
   }
